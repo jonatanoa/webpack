@@ -7,9 +7,4 @@ export const saludar =(nombre = 'Sin nombre')=>{
     h1.innerText= `Hola ${nombre}`
     document.body.append(h1)
 
-    //img
-    // console.log(webpacklogo);
-    // const img = document.createElement('img');
-    // img.src = webpacklogo;
-    // document.body.append(img);
 };
